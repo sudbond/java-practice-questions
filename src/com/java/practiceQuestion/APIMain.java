@@ -22,10 +22,8 @@ public class APIMain {
 		try {
 			trainNumber = Integer.parseInt(bufferedReader.readLine());
 		} catch (NumberFormatException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		} catch (IOException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 		// building the complete url by adding train number with it.
